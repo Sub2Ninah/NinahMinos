@@ -132,7 +132,7 @@ class Music {
 		this.audio.preload = "auto";
 		this.audio.load();
 		audioContext.createMediaElementSource(this.audio).connect(gainNode);
-		this.audio.src = `Music/${this.id}.mp3?cacheonly=true`;
+		this.audio.src = `Music/${this.id}.mp3`;
 	}
 
 	play(keepable = false) {
