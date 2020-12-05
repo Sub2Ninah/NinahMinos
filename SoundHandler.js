@@ -41,7 +41,7 @@ class SFX {
 		source.connect(outputNode);
 		source.start();
 	}
-}
+)
 
 var originalSoundEffectConfig = {};
 
