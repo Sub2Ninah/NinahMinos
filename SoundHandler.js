@@ -16,7 +16,7 @@ class SFX {
 		id = soundEffectConfig[id];
 		if ((id ?? 0) == 0) return;
 		let request = new XMLHttpRequest();
-		request.open('GET', `SFX/${id}.mp3?cacheonly=true`, true);
+		request.open('GET', `SFX/${id}.mp3, true);
 		request.responseType = 'arraybuffer';
 		request.onload = () => {
 			if (request.status != 200) {
