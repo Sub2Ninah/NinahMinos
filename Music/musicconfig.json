@@ -47,13 +47,13 @@
 	"shirase_level1000Opening": 0,
 	"shirase_level1000Loop": -13,
 
-	"endless_level1Opening": 0,
+	"endless_level1Opening": -14,
 	"endless_level1Loop": -14,
-	"endless_level6Trigger": 0,
-	"endless_level6Opening": 0,
+	"endless_level6Trigger": -3,
+	"endless_level6Opening": -15,
 	"endless_level6Loop": -15,
-	"endless_level11Trigger": 0,
-	"endless_level11Opening": 0,
+	"endless_level11Trigger": -5,
+	"endless_level11Opening": -16,
 	"endless_level11Loop": -16,
 
 	"40Line_opening": 0,
